@@ -7,17 +7,16 @@ body {
 	display: flex;
  	justify-content: center;
 	align-items: center;
-	flex-direction: column;  
 }
 
 .container{
 	width: 90%;
+	max-width: 1200px;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-flow: row wrap;  
-	flex-direction: column; 
 }
 
 h1,
@@ -48,12 +47,12 @@ p {
 }
 
 header {
-	
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;  
+	flex-flow: column;
+	  
 }
 
 header h1 {
@@ -69,20 +68,19 @@ header nav {
 	padding: 46px 0;
 	
 }
+
 header nav ul {
 	margin: 0;
 	padding: 0;
 	
 }
+
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
 	padding: 0 10px;
 	display: flex;
-	align-content: space-between;
-	align-items: center;
-	
 }
 
 header nav ul li a{
@@ -97,25 +95,17 @@ header nav ul li a{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	
 }
 
-.top-section{
-	flex-direction: column;
-}
 
-.main-image {
-		width:100%;
-}
 .main-image img {
-	border-bottom: 3px solid #77a466;
+	width:100%;
+	border-top: 3px solid #77a466;
+	border-bottom: 4px solid #77a466;
 }
 
-.main-title {
-	
-}	
 .main-title h3 {
-	text-align: left;
+	
 	padding: 5px 0;
 	color: #77a466;
 }
@@ -129,7 +119,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 399px;
+	width: 100%;
 }
 
 .section-two{
@@ -146,8 +136,7 @@ header nav ul li a{
 .menu {
 	list-style: none;
 	padding: 0 1.75em;
-	justify-content: center;
-}
+	}
 .menu li {
 	padding: 0.625em 0;
 	color:#77a466;
